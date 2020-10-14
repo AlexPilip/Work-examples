@@ -1,0 +1,347 @@
+@media (max-width: 1800px) {
+  .background-interior {
+    background-position: 4% 100%;
+    background-size: auto 90%;
+  }
+}
+@media (max-width: 1500px) {
+  .background-interior {
+    background-position: -7% 100%;
+    background-size: auto 90%;
+  }
+}
+@media (max-width: 1400px) {
+  .background-interior {
+    background-position: -15% 100%;
+    background-size: auto 90%;
+  }
+}
+@media (max-width: 1300px) {
+  .background-interior {
+    background-position: -25% 100%;
+    background-size: auto 85%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header__list {
+    margin-left: 36px;
+  }
+  .header__logo {
+    margin-left: 9px;
+  }
+  .header__inner {
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .order-info__treatment {
+    margin-top: 140px;
+  }
+  .make-order__form {
+    margin-top: 140px;
+  }
+
+  .order-info__treatment {
+    max-width: 46%;
+  }
+  .order-info__images {
+    max-width: 46%;
+  }
+  .legs {
+    margin-left: -420px;
+    margin-top: 100px;
+  }
+  .box-pills {
+    margin: 0 auto;
+    margin-left: 160px;
+  }
+  .order-info .image__price-orange {
+    left: 539px;
+    top: 670px;
+  }
+  .order-info .image__price-green {
+    left: 634px;
+    top: 798px;
+  }
+  .make-order__form {
+    max-width: 270px;
+    height: 554px;
+    margin-top: 30px;
+    margin: 0 auto;
+    background-size: 100% 100%;
+  }
+  .make-order__text {
+    padding: 18px 33px 0px 33px;
+  }
+  .make-order__text-phone {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .price-wrapper-text {
+    padding: 7px;
+  }
+  .protection {
+    margin-top: 30px;
+  }
+  .background-interior {
+    background-position: -45% 51%;
+    background-size: auto 75%;
+  }
+  .fungus {
+    padding: 15px;
+  }
+  .order-info__list-item {
+    margin-top: 50px;
+  }
+  .order-info__list::before {
+    content: url(../images/gray-arrow.svg);
+    position: absolute;
+    top: 70px;
+    left: -25px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .background-interior {
+    background-position: -44% 51%;
+    background-size: auto 75%;
+  }
+  .legs {
+    margin-left: -400px;
+  }
+  .order-info__treatment {
+    margin-top: 190px;
+    max-width: 50%;
+  }
+}
+@media (max-width: 1000px) {
+  .order-info__list::before {
+    display: none;
+  }
+  .order-info__inner {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .header__list {
+    margin-left: 36px;
+  }
+  .header__logo {
+    margin-left: 9px;
+  }
+  box-pills {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .make-order__form {
+    margin: 0 0;
+  }
+  .order-info__treatment {
+    max-width: 70%;
+    margin-top: 40px;
+  }
+  .wrapper {
+    height: 510px;
+  }
+  .wrapper__inner {
+    height: 510px;
+  }
+  .background-waves {
+    height: 560px;
+  }
+  .background-interior {
+    background-position: -15% 17%;
+    background-size: auto 40%;
+  }
+  .legs {
+    width: 500px;
+    margin-left: -314px;
+    margin-top: -28px;
+  }
+  .box-pills {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+  }
+  .order-info__treatment {
+    margin-left: 200px;
+    margin-top: 220px;
+  }
+  .make-order__form {
+    margin-left: 337px;
+    margin-top: 50px;
+  }
+  .order-info .image__price-orange {
+    top: 142px;
+    left: 510px;
+  }
+  .order-info .image__price-green {
+    top: 269px;
+    left: 600px;
+  }
+  .box-pills {
+    margin-left: 140px;
+  }
+}
+@media (max-width: 900px) {
+  .order-info__treatment {
+    margin-top: 200px;
+  }
+  .make-order__form {
+    margin: 0 auto;
+  }
+  .fungus__title {
+    text-align: center;
+  }
+  .fungus__text {
+    text-align: center;
+  }
+  .box-pills {
+    margin-left: 100px;
+  }
+  .order-info .image__price-orange {
+    top: 142px;
+    left: 470px;
+  }
+  .order-info .image__price-green {
+    top: 269px;
+    left: 560px;
+  }
+}
+@media (max-width: 800px) {
+  .header__inner {
+    margin-left: 4px;
+  }
+  .order-info__treatment {
+    margin: 210px auto 0 auto;
+  }
+  .make-order__form {
+    margin: 25px auto;
+  }
+  .order-info__list::before {
+    content: url(../images/gray-arrow.svg);
+    position: absolute;
+    top: 75px;
+    left: -25px;
+  }
+  .box-pills {
+    position: absolute;
+    left: -40px;
+    top: 200px;
+    width: 600px;
+  }
+  .order-info .image__price-orange {
+    top: 174px;
+    left: 340px;
+  }
+  .order-info .image__price-green {
+    top: 300px;
+    left: 440px;
+  }
+  .fungus__title {
+    text-align: center;
+  }
+  .box-pills {
+    margin-left: 90px;
+  }
+  .symptoms {
+    align-items: center;
+    justify-content: center;
+  }
+  .order-info__list-item {
+    margin-top: 48px;
+  }
+  .symptoms__item {
+    padding: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .order-info__list-item {
+    margin-top: 57px;
+  }
+  .header__list {
+    font-size: 14px;
+  }
+  .box-pills {
+    position: absolute;
+    left: -40px;
+    top: 300px;
+    width: 450px;
+  }
+  .order-info .image__price-orange {
+    top: 277px;
+    left: 265px;
+  }
+  .order-info .image__price-green {
+    top: 365px;
+    left: 320px;
+  }
+}
+@media (max-width: 550px) {
+  .header__list {
+    display: none;
+  }
+  .logo__img img {
+    width: 130%;
+    margin: 0 30px 0 30px;
+  }
+}
+@media (max-width: 550px) {
+  .box-pills {
+    position: absolute;
+    left: -40px;
+    top: 300px;
+    width: 400px;
+  }
+  .order-info .image__price-orange {
+    top: 266px;
+    left: 239px;
+  }
+  .order-info .image__price-green {
+    top: 353px;
+    left: 297px;
+  }
+}
+@media (max-width: 450px) {
+  .box-pills {
+    width: 350px;
+    margin-left: 50px;
+  }
+  .order-info .image__price-orange {
+    left: 160px;
+  }
+  .order-info .image__price-green {
+    top: 333px;
+    left: 234px;
+  }
+  .logo__img img {
+    width: 100%;
+  }
+  .order-info__title {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .logo__img img {
+    width: 90%;
+  }
+}
+@media (max-width: 320px) {
+  .order-info__title {
+    font-size: 30px;
+  }
+  .box-pills {
+    width: 327px;
+    margin-left: 27px;
+  }
+  .order-info .image__price-orange {
+    left: 153px;
+  }
+  .order-info .image__price-green {
+    left: 198px;
+  }
+  .logo__img img {
+    width: 80%;
+  }
+}

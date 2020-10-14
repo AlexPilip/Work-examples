@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+}
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  color: #666666;
+  @extend %r-regular;
+  font-size: 18px;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.wrapper {
+  height: 686px;
+  background: url(../images/bg-interior.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: relative;
+  &__inner {
+    height: 686px;
+    background: linear-gradient(
+      to right,
+      rgba(243, 249, 255, 0.1) 0%,
+      rgba(243, 249, 255, 0.7) 10%,
+      rgba(243, 249, 255, 1) 100%
+    );
+  }
+}
+.background-waves {
+  position: relative;
+  height: 834px;
+  background: url(../images/waves.png) bottom left no-repeat;
+}
+.background-interior {
+  height: 834px;
+  background-image: url(../images/bg-interior-2.png);
+  background-repeat: no-repeat;
+  background-position: 10% 130%;
+  background-size: auto 90%;
+}
