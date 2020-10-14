@@ -1,0 +1,520 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "Myriad Pro Bold";
+    src: url("../fonts/MyriadPro-Bold.otf");
+    font-style: normal;
+  }
+@font-face {
+    font-family: "Myriad Pro Light";
+    src: url("../fonts/MyriadPro-Light.otf");
+    font-style: normal;
+  }
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url("../fonts/MyriadPro-Regular.otf");
+    font-style: normal;
+}
+h1{
+    font-size: 85px;
+    font-family: "Myriad Pro Bold";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    line-height:69px;
+    letter-spacing: 4px ;
+}
+h2{
+    font-size: 36px;
+    font-family: "Myriad Pro Regular";
+    color: rgb(59, 53, 53);
+    text-transform: uppercase;
+    font-weight: 400;            
+}
+body{
+    width: 100%;
+    background-color: #f8f8f8;
+    font-family: "Myriad Pro Regular";
+    letter-spacing: 1px;
+    color:#fff ;
+}
+.container{ 
+    background:url(../img/image-header.png) no-repeat;
+    background-size: auto;
+}
+.header-inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.top-bloсk-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-container{
+    margin-top: 41px;
+}
+.phone-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 227px;
+}
+.email-container,
+.phone-container{
+    margin-top: 33px;
+}
+.sub-logo,
+.image-icon-phone,
+.image-icon-email{
+    align-self: flex-start;
+}
+.image-icon-email{
+    margin-top: 2px;
+}
+.phone-number-viber{
+    margin-left: 30px;
+}
+.number-info-viber{
+    margin-left: 10px;
+    margin-top: -1px;
+}
+.container-language,
+.email-container{
+    display: flex;
+    flex-direction: row;
+}
+.language{
+    display: inline-block;
+    width: 56px;
+    height: 29px;
+    font-size: 14px;
+    font-family: "Myriad Pro Regular";
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    border-radius: 3px;
+    background-color: #1a90a2;
+    text-align: center;
+    text-decoration: none;  
+}
+.language-de{
+    background-color: rgba(255,255,255,0.1);
+    margin-left: 10px;
+}
+.container-language{
+    margin-top: 27px;
+}
+.phone-number,.email{
+    font-family:"Myriad Pro Light"; 
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;      
+}
+.number-info{
+    margin-left: 8px;
+}
+.email-info{
+    margin-left: 11px;
+}
+.text-conteinet{
+   margin-top: 105px;
+}
+.small-text{
+    display: block;
+    font-size: 65px;
+}
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -9px;
+}
+.menu-item{
+    font-family: "Myriad Pro Regular";
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);    
+}
+.container-buttons{
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+.button-sell-coats{
+    width: 240px;
+    height: 55px;
+    background-color: rgb(26, 144, 162);
+    border: none;
+    box-shadow: 0px 4px 12px 0px rgba(26, 144, 162, 0.4);
+    cursor: pointer; 
+}
+.button-top-brands {
+    width: 213px;
+    height: 57px;
+    background-color: rgba(164, 35, 110, 0);
+    border: 2px solid rgb(26, 144, 162);
+    margin-left: 30px;
+    cursor: pointer; 
+}    
+.button-top-brands,
+.button-sell-coats{
+    font-size: 18px;
+    font-family: "Myriad Pro Regular";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.111;
+    text-align: center;
+    outline: none;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+.image-hanger{
+    margin-right: 10px;
+}                    
+.main-container{
+    margin: 0 auto;
+    width: 1180px;
+    
+}
+.titlle{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    top: 83px; 
+}
+.sub-titlle{
+    margin-left: 19px;
+}
+.sub-logo{
+    margin-top: 9px;
+}
+.goods-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}   
+.goods-item{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    margin:70px 15px 0px 0px;
+}
+.goods-item-info{
+    position: absolute;
+    left: auto;
+    right: auto;
+    bottom: -19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.button-buy{
+    width: 120px;
+    height: 39px;
+    border-radius: 4px;
+    background-color: rgb(26, 144, 162);
+    font-size: 18px;
+    font-family: "Myriad Pro Regular";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.price{
+    margin-bottom: 9px;
+    font-size: 16px;
+    font-family: "Myriad Pro Bold";
+    font-weight: bold;
+    line-height: 1.2;                      
+}
+.color{
+    margin-bottom: 10px;
+}
+.names{
+    margin-bottom: 2px;
+}
+ .color,.names{
+    font-size: 16px;
+    font-family: "Myriad Pro Light";
+    line-height: 1.2;  
+ }
+.goods-item-1{
+    width: 280px;
+    height: 390px;
+    background-image: url(../img/photo-1.png);    
+}
+.goods-item-2{
+    width: 280px;
+    height: 390px;
+    background-image: url(../img/photo-2.png);    
+}
+.goods-item-3{
+    width: 280px;
+    height: 390px;
+    background-image: url(../img/photo-3.png);    
+}
+.goods-item-4{
+    width: 280px;
+    height: 390px;
+    background-image: url(../img/photo-4.png);    
+}
+.goods-item-5{
+    width: 280px;
+    height: 390px;
+    background-image: url(../img/photo-5.png);    
+}
+.goods-item-6{
+    width: 280px;
+    height: 390px;
+    background-image: url(../img/photo-6.png);
+}
+.goods-item-7{
+    width: 280px;
+    height: 390px;
+    background-image: url(../img/photo-7.png);
+}
+.goods-item-8{
+    width: 280px;
+    height: 390px;
+    background-image: url(../img/photo-8.png);
+}
+.goods-item-9{
+    background-image: url(../img/photo-9.png);
+    width:559px;
+    height: 390px;
+}
+.goods-item::after{
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 100%)
+}
+.goods-item:hover::after{
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #1a90a2;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(26, 144, 162, 1) 100%)
+}
+.section-2{
+    margin-top: 20px;
+}
+.gamburger-menu{
+    display: none;
+}
+.gamburger-menu > div{
+    width: 27px;
+    height: 4px;
+    margin-top: 4px;
+    background-color: white;
+}
+.email-container-tablet{
+    display: none;
+}
+@media screen and (min-width:1920px) {
+    .container{ 
+        background-size:100% auto;
+    }          
+}
+@media screen  and (max-width:1200px) {
+          
+    .logo-container{
+        margin-left: 3%;
+    }
+    .text-conteinet{
+        margin-left: 3%;
+        margin-top: 50px;
+    }
+    .container-buttons{
+        margin-top: 60px;
+        margin-right: 3%;
+    }
+    .container-nav{
+        margin-top: 50px;
+        margin-left: 3%;
+        justify-content: flex-start;
+    }
+    .image-icon-menu{
+        margin-top: 3px;
+    }
+    .menu-item{
+        font-size: 21px;
+    }
+    .phone-container{
+        margin-left: 10px;
+    }
+    .email-container{
+        margin-right: 10px;
+    }
+    .container-language{
+        margin-right: 3%;
+    }
+    .main-container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-inner{
+        width: 80%;
+    }
+    .phone-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .phone-number-viber{
+        margin-left: -3px;
+        margin-top: 3px;
+    }
+}
+@media screen  and (max-width:1106px){
+    .goods-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen  and (max-width:1041px){ 
+    .goods-container{
+        display: flex;
+        justify-content: center;
+    }
+    .container-buttons{
+        margin-top: 10px;
+        margin-right: 3%;
+    }
+    h1{
+        font-size: 75px;
+    }
+    .small-text {
+        font-size: 65px;
+    }
+}
+@media screen and (max-width: 992px){
+    h1{
+        font-size: 65px;
+    }
+    .small-text {
+        font-size: 55px;
+    }
+    .container-nav{
+        display: none;
+    }
+    .gamburger-menu{
+        display: block;
+        margin-left: 3%;
+        margin-top: 40px;
+    }
+    .container-buttons{
+      justify-content: center;
+    }
+    .titlle {
+        top: 97px;
+    }
+    .email-container{
+        display: none;
+    }
+    .email-container-tablet{
+        display: block;
+        margin-top: 5px;
+    } 
+}
+@media screen and (max-width: 768px){
+    .top-bloсk-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .phone-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .email-container,.phone-container {
+        margin-top: 10px;
+    }
+    .email-container-tablet{
+        margin-top: 0;
+    }
+    .number-info-viber {
+        margin-top: -4px;
+    }
+    .image-icon-phone-viber{
+        margin-top: -5px;
+    }
+    .email-info {
+        margin-top:-3px;
+    }
+    .gamburger-menu{
+        position: absolute;
+        top: 4%;
+        right: 15%;
+        margin-top: 0px;
+    }
+    .container-language{
+        position: absolute;
+        top: 4%;
+        right: 20%;
+        margin-top: 0px;
+    }
+    .logo-container {
+        margin-top: 4%;
+    }
+    .text-conteinet {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 645px){
+    h1{
+        font-size: 55px;
+    }
+    .small-text {
+        font-size: 45px;
+    }
+    .logo{
+        width: 50%;
+    }
+    .gamburger-menu{ 
+        right: 10%;
+    }
+    .container-language{
+        right: 15%; 
+    }
+    .phone-container {
+        flex-direction:column;
+    }
+    .email-container-tablet{
+        margin-top: 3px;
+    }
+    .goods-item-1,
+    .goods-item-2,
+    .goods-item-3,
+    .goods-item-4,
+    .goods-item-5,
+    .goods-item-6,
+    .goods-item-7,
+    .goods-item-8 {
+        width: 450px;
+        height: 627px;
+        background-repeat: no-repeat;
+        background-size: 100% auto;  
+    }
+    .goods-item-9{
+        width: 450px;
+        height: 290px;
+        background-size: 100% auto;
+        background-repeat: no-repeat;  
+    }
+}
+
+       
